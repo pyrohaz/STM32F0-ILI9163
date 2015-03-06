@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\STM32F0-ILI9163\stm32_lib\inc /I..\..\..\workspace /I..\..\..\workspace\STM32F0-ILI9163 /I..\..\..\workspace\STM32F0-ILI9163\cmsis_core /I..\..\..\workspace\STM32F0-ILI9163\stm32_lib /I..\..\.. /I..\..\..\workspace\STM32F0-ILI9163\cmsis_boot">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14bf1261e06">
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="14bf12621fd">
+         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h" lastModified="14bf1261dde">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h" lastModified="14bf1261deb">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\GFXC.h" lastModified="14bf1281c72">
+         <include file="..\..\..\ILI9163.h"/>
+      </source>
+      <source file="..\..\..\ILI9163.h" lastModified="14bf12c6023">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="14bf1261de1">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_spi.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h" lastModified="14bf1261df1">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f0xx.h" lastModified="14bf12621f1">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\GFXC.c" lastModified="146b010c105">
+         <include file="..\..\..\GFXC.h"/>
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14bf1261df4">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\ILI9163.c" lastModified="146adc86c1a">
+         <include file="..\..\..\ILI9163.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="14bf12625e8">
+      </source>
+      <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14bf1261ded">
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_gpio.h"/>
+         <include file="..\..\..\stm32_lib\inc\stm32f0xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="14bf12625e6">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14bf1261e0d">
+         <include file="..\..\..\cmsis_boot\stm32f0xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f0xx.h" lastModified="14bf1261e0c">
+      </source>
+   </includePath>
+</dependencies>

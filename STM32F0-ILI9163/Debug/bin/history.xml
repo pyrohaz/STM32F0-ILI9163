@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-ILI9163.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-ILI9163 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-ILI9163/arm-gcc-link.ld -g">
+      <target file="STM32F0-ILI9163.elf" lastModified="14bf131653d">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14bf12c786e"/>
+         <source file="..\obj\GFXC.o" lastModified="14bf12c7af7"/>
+         <source file="..\obj\ILI9163.o" lastModified="14bf12c7cc1"/>
+         <source file="..\obj\main.o" lastModified="14bf1316063"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14bf12c7f09"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="14bf12c811a"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14bf12c82bc"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14bf12c848a"/>
+      </target>
+   </processor>
+</history>
